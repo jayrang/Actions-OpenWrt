@@ -61,10 +61,16 @@ CONFIG_PACKAGE_ffprobe=y
 EOF
 
 cat >> .config <<EOF
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-vssr=y
-CONFIG_PACKAGE_luci-app-vlmcsd=y
-CONFIG_PACKAGE_luci-app-qosv4=y
+CONFIG_PACKAGE_luci-app-zerotier=y
+CONFIG_PACKAGE_luci-app-ssr-plus=y
+CONFIG_PACKAGE_luci-app-nps=y
+CONFIG_PACKAGE_luci-app-frpc=y
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
+CONFIG_PACKAGE_ddns-scripts_dnspod=y
+CONFIG_PACKAGE_luci-app-openclash=y
 
 EOF
 
